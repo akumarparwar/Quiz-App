@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "builds": [
       {
@@ -7,4 +8,15 @@
     ],
     "outputDirectory": "build"
   }
+=======
+{
+    "builds": [
+      {
+        "src": "vite.config.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "outputDirectory": "build"
+  }
+>>>>>>> a4c31a49067df4521d6ed12041e95311916cd1b7
   
