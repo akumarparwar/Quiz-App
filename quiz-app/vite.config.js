@@ -1,7 +1,6 @@
 // vite.config.js
 export default {
-    build: {
-      outDir: 'dist',  // Vercel looks for the 'dist' folder by default
-    }
-  };
-  
+  build: {
+    outDir: 'build', // Ensure Vercel looks for this directory
+  },
+};
